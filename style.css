@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    width: 100dvw;
+    height: 100dvh;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.text p {
+    --shadow-color: rgb(171, 189, 206);
+    font-size: 3rem;
+    color: white;
+    font-family: "Rock Salt", cursive;
+    font-weight: 600;
+    text-shadow: 20px 20px 40px var(--shadow-color),
+    -20px 20px 40px var(--shadow-color),
+    -20px -20px 40px var(--shadow-color),
+    20px -20px 40px var(--shadow-color),
+    0px 0px 60px rgb(247, 248, 199);
+}
